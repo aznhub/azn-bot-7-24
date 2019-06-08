@@ -81,6 +81,7 @@ client.unload = command => {
 client.on('message', msg => {
   if (msg.content.toLowerCase() === 'ldkdaısekaksıeekas') {
     msg.reply('||_||');
+	  
   if (msg.content.toLowerCase() === 'nasılsınız') {
     msg.reply('İyiyiz dostum, sen nasılsın? :)');	  
   }

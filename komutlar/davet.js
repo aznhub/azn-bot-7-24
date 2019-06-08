@@ -13,7 +13,7 @@ exports.run = (client, message) => {
     .setColor(0x00AE86)
     .setTimestamp()
     .setAuthor(message.author.username, message.author.avatarURL)
-    .setDescription('AZN Bot`u sunucuna eklersen çok seviniriz. :  https://discordapp.com/oauth2/authorize?client_id=586570476973719552&scope=bot&permissions=2146958847 ');
+    .setDescription('AZN Bot`u sunucuna eklersen çok seviniriz. :  https://discordapp.com/oauth2/authorize?client_id=586570476973719552&scope=bot&permissions=2146958847 Ayrıca botun sitesini de ziyaret etmeyi unutmayın! https://azn-discordbot.site123.me/ ');
     return message.author.sendEmbed(pingozel)
 };
 

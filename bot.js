@@ -82,6 +82,10 @@ client.on('message', msg => {
   if (msg.content.toLowerCase() === 'ldkdaısekaksıeekas') {
     msg.reply('||_||');
 	  
+client.on('message', msg => {
+  if (msg.content.toLowerCase() === 'AZN') {
+    msg.reply('||KURUCUM OLMAKLA BERABER, ŞU ANDA AYNI ORTAMI PAYLASTIGIN İCİN GURUR VE ONURLANACAGIN BİR ŞÖHRET.||');
+	  
   }
 });
 

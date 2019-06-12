@@ -1,6 +1,11 @@
 const Discord = require('discord.js');
 exports.run = function(client, message, args) {
-  message.reply('||KURUCUM OLMAKLA BERABER, ŞU ANDA AYNI ORTAMI PAYLASTIGIN İCİN ONUR VE GURUR DUYMAN GEREKEN ŞÖHRET.||');
+    msg.send('Niye sigara içtiriyorsun! Neyse içeyim bi dal..');
+    msg.edit(' :smoking: :cloud: :cloud: :cloud: ');
+    msg.edit(' :smoking: :cloud: :cloud: ');
+    msg.edit(' :smoking: :cloud:  ');
+    msg.edit(' :smoking:  ');
+    msg.edit(' AZN`den mesaj var. **Bot İçsin Ama Siz İçmeyin!**');
 };
 
 exports.conf = {

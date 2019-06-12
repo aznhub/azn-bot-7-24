@@ -1,0 +1,22 @@
+const Discord = require('discord.js');
+exports.run = function(client, message, args) {
+    msg.send('Niye sigara içtiriyorsun! Neyse içeyim bi dal..');
+    msg.edit(' :smoking: :cloud: :cloud: :cloud: ');
+    msg.edit(' :smoking: :cloud: :cloud: ');
+    msg.edit(' :smoking: :cloud:  ');
+    msg.edit(' :smoking:  ');
+    msg.edit(' AZN`den mesaj var. **Bot İçsin Ama Siz İçmeyin!**');
+};
+
+exports.conf = {
+  enabled: true,
+  guildOnly: false,
+  aliases: [],
+  permLevel: 0
+};
+
+exports.help = {
+  name: 'sigara',
+  description: 'Bot`a sigara içtirir.',
+  usage: 'sigara'
+};

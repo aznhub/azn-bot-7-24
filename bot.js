@@ -81,7 +81,6 @@ client.unload = command => {
 client.on('message', msg => {
   if (msg.content.toLowerCase() === 'AZN') {
     msg.reply('||KURUCUM OLMAKLA BERABER, ŞU ANDA AYNI ORTAMI PAYLASTIGIN İCİN ONUR VE GURUR DUYMAN GEREKEN ŞÖHRET.||');
-	  
   }
 });
 

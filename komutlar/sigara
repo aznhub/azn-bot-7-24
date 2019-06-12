@@ -1,10 +1,17 @@
 const Discord = require('discord.js');
-}
-  if (msg.content.toLowerCase() === prefix + 'sigara') {
-    msg.send('Niye sigara içtiriyorsun! Neyse içeyim bi dal..');
-    msg.edit(' :smoking: :cloud: :cloud: :cloud: ');
-    msg.edit(' :smoking: :cloud: :cloud: ');
-    msg.edit(' :smoking: :cloud:  ');
-    msg.edit(' :smoking:  ');
-    msg.edit(' AZN`den mesaj var. **Bot İçsin Ama Siz İçmeyin!**');
-  }
+exports.run = function(client, message, args) {
+  message.reply('||KURUCUM OLMAKLA BERABER, ŞU ANDA AYNI ORTAMI PAYLASTIGIN İCİN ONUR VE GURUR DUYMAN GEREKEN ŞÖHRET.||');
+};
+
+exports.conf = {
+  enabled: true,
+  guildOnly: false,
+  aliases: [],
+  permLevel: 0
+};
+
+exports.help = {
+  name: 'sigara',
+  description: 'Sigara içtirir.',
+  usage: 'AZN'
+};

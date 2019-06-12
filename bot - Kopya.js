@@ -38,7 +38,8 @@ client.on('message', msg => {
   if (msg.content.toLowerCase() === prefix + 'reboot') {
     if (msg.author.id !== ayarlar.sahip) {
       msg.reply('Benim yapımcım değilsin! KISACASI SEN BİR __**AZN**__ DEGİLSİN !');
-    } else {
+    }
+	  else {
       msg.channel.sendMessage(`Bot **AZN** tarafindan yeniden başlatiliyor...`).then(msg => {
       console.log(`BOT: Bot yeniden başlatılıyor...`);
       process.exit(0);

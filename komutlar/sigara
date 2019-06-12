@@ -1,5 +1,4 @@
 const Discord = require('discord.js');
-{
     msg.send('Niye sigara içtiriyorsun! Neyse içeyim bi dal..');
     msg.edit(' :smoking: :cloud: :cloud: :cloud: ');
     msg.edit(' :smoking: :cloud: :cloud: ');

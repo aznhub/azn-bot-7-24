@@ -1,0 +1,17 @@
+const Discord = require('discord.js');
+exports.run = function(client, message, args) {
+  message.reply('||KURUCUM OLMAKLA BERABER, ŞU ANDA AYNI ORTAMI PAYLASTIGIN İCİN ONUR VE GURUR DUYMAN GEREKEN ŞÖHRET.||');
+};
+
+exports.conf = {
+  enabled: true,
+  guildOnly: false,
+  aliases: [],
+  permLevel: 0
+};
+
+exports.help = {
+  name: 'AZN',
+  description: 'AZN`yi gösterir.',
+  usage: 'AZN'
+};

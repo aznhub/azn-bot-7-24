@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 exports.run = function(client, message, args) {
-    msg.send('Niye sigara içtiriyorsun! Neyse içeyim bi dal..');
+    msg.reply('Niye sigara içtiriyorsun! Neyse içeyim bi dal..');
     msg.edit(' :smoking: :cloud: :cloud: :cloud: ');
     msg.edit(' :smoking: :cloud: :cloud: ');
     msg.edit(' :smoking: :cloud:  ');
